@@ -1,0 +1,29 @@
+/*info-section-------------------------------------------*/
+.info {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../image/overlay.jpg);
+  background-repeat: no-repeat;
+  background-color: var(--headfoot-color);
+  background-size: content;
+  background-position-x: center;
+
+
+  &__container {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  &__slogan {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--logo-color);
+    text-transform: uppercase;
+  }
+}
+/*info-END--------------------------------------------------*/

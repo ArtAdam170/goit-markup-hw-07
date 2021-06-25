@@ -1,0 +1,49 @@
+/*property-section-------------------------------------------*/
+.property {
+  padding-top: 94px;
+  background: var(--logo-color);
+
+    &__header {
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+    
+    &__description {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.7;
+      letter-spacing: 0.02em;
+      color: var(--tel-mail-color);
+    }
+    
+    &__list {
+      display: flex;
+    }
+    
+    &__item {
+      max-width: 270px;
+    }
+    
+    &__item:not(:last-child) {
+      margin-right: 30px;
+    }
+    
+    &__icon-background {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f4fa;
+      width: 270px;
+      height: 120px;
+      margin-bottom: 30px;
+    }
+    
+    &__icon {
+      width: 70px;
+      height: 70px;
+    }
+}
+/*property-END------------------------------------------------*/
